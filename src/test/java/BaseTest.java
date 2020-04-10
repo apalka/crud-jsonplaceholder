@@ -2,9 +2,9 @@ import com.github.javafaker.Faker;
 
 public class BaseTest {
 
-    static protected String BASE_URL = "https://jsonplaceholder.typicode.com/";
-    static protected String END_PHOTOS = "photos";
-    static protected String END_USERS = "users";
+    protected static String BASE_URL = "https://jsonplaceholder.typicode.com/";
+    protected static String END_PHOTOS = "photos";
+    protected static String END_USERS = "users";
 
     protected static Faker faker;
     protected Integer fakeAlbumId;
